@@ -1,0 +1,382 @@
+body {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.4rem;
+    color: rgb(255, 255, 255);
+    background-color: #def6fb;
+    background-image: url("https://www.transparenttextures.com/patterns/type.png");  
+  }
+  
+  h1 {
+    padding-top: 5%;
+    font-family: 'Ruthie', cursive;
+    font-size: 6rem;
+    letter-spacing: 12px;
+    color: white;
+  }
+  
+  h2 {
+    padding: 4% 0;
+    font-size: 4rem;
+    text-shadow: 0 0 15px #00aced;
+  }
+
+  h3 {
+    text-shadow: 0 0 15px #00aced; 
+  }
+  
+  hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), red, rgba(0, 0, 0, 0));
+    margin-bottom: 2rem;
+  }
+  
+  
+  #header {
+    background-image: url("../images/header.jpg");
+    background-repeat: round; /* makes height 100%  and no repeat */
+    padding-top: 0;
+    padding-bottom: 800px;
+    color: white;
+    margin-top: -20px;
+    box-shadow: 0 5px 15px black;
+  }
+  
+  #about {
+    background-image: url(),linear-gradient(to bottom,rgba(103,62,147,0.5),transparent);
+    padding-top: 1px;
+  }
+
+  #services {
+    background-image: url(style.css), linear-gradient(to top, rgba(149, 177, 197, 0.5), transparent);
+  }
+
+  #portfolio {
+    background-color: #cbe9ff;
+    background-image: url("https://www.transparenttextures.com/patterns/type.png");
+  }
+
+  #contacts {
+    background-image: url(),linear-gradient(to top,rgba(24,25,76,0.5),transparent);
+  }
+
+  #footer {
+    background-color: #13144a;
+    background-image: url("https://www.transparenttextures.com/patterns/rocky-wall.png");
+    box-shadow: 0 -5px 10px black;
+    
+  }
+
+  #input-message {
+    min-height: 210px;
+  }
+  
+  .pos-rel {
+    position: relative;
+    padding-bottom: 20px;
+  }
+  
+  .left-text {
+    text-align: left;
+  }
+  
+  .sm {
+    margin: 0 15%;
+    padding: 2%;
+  }
+  
+  /* menu animation */
+  .hide-menu {
+    background-color: #13144a;
+    background-image: url("https://www.transparenttextures.com/patterns/rocky-wall.png");
+    box-shadow: 0 5px 10px black;
+    
+    transition: 1500ms linear;
+  }
+  
+  .left-slide-button {
+    background-image: url("../images/ArrowLeft.png");
+    background-repeat: round; /* makes height 100%  and no repeat */
+    width: 8%;
+    
+  }
+
+  .right-slide-button {
+    background-image: url("../images/ArrowRight.png");
+    background-repeat: round; /* makes height 100%  and no repeat */
+    width: 8%;
+    
+  }
+  
+  /* navigation + title section */
+  .navbar{
+    height: 100px;
+  }
+  
+  .navbar-light .nav-item .nav-link {
+    color: #f4f4f4;
+    margin: 0 50px 0 50px;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .navbar-toggler {
+    background-color: #ffffff;
+    margin-right: 3%;
+  } 
+  
+  .navbar-light .nav-item .big {
+    font-size: 2rem;
+  }
+
+  .navbar-light .nav-item.active .nav-link,
+  .navbar-light .nav-item .nav-link:active,
+  .navbar-light .nav-item .nav-link:focus,
+  .navbar-light .nav-item:hover .nav-link {
+    color: rgb(132, 248, 0); 
+  }
+
+  .navbar-light .nav-item .big {
+    font-size: 2rem;
+  }
+
+  .title {
+    position: absolute;
+    left: 3%;
+    top: 20%;
+    width: 35%;
+  }
+  
+  
+  /* about section */
+  .about-img {
+    height: 400px;
+    border-radius: 15%;
+    box-shadow: black 0px 0px 20px 1px;
+  }
+
+  .about-intro {
+    width: 80%;  
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .first {
+    order: 1;
+  }
+
+  .second {
+    order: 2;
+  }
+
+  @media (max-width: 992px) {
+    .about-intro {
+      text-align: center;
+      width: 100%;
+      padding: 5% 5% 0 5%
+    }
+    .about-img {
+      width: 25%;
+      height: 235px;
+      ;
+    }
+  }
+
+   /* service section */
+  .service-header {
+    background-image: url("../images/service.jpg");
+    background-repeat: round; /* makes height 100%  and no repeat */
+  }
+
+  .right-img {
+    position: absolute;
+    right: 0;
+    }
+
+   
+  .skill-text {
+    margin-bottom: 2rem;
+  }
+  
+  .skill-pic {
+      width: 100%;
+  }
+
+  .services-img {
+    width: 100%;
+    border-radius: 15%;
+    box-shadow: black 0px 0px 20px 1px;
+  }
+
+  @media (max-width: 1200px) {
+    .services-img {
+      width: 100%;
+      
+    }
+  }
+
+  /* portfolio section */
+  
+  
+
+  .testimonial-image {
+    margin-top: 20px;
+    height: 150px;
+    width: 10%;
+    border-radius: 100%;
+  }
+
+  .press-logo {
+    width: 15%;
+    margin: 0 20px 0px;
+  }
+
+  .press-logo:hover {
+    cursor: pointer;
+  }
+
+  .clients {
+    align-self: center;
+    width: -webkit-fill-available;
+  }
+
+  /* contacts section */
+  /*.contacts-header {
+    background-image: url("../images/contact.jpg");
+    background-repeat: round; /* makes height 100%  and no repeat */
+  /*}*/
+
+  .sm1 {
+    margin: 20px 15%;
+  }
+  
+  .text {
+    position: relative;
+    margin: 0 10%;
+    top: -35px;
+  }
+  
+  
+  /* Add a background color and some padding around the form */
+  .container-mirror {
+    position: relative;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px 2px black;
+  }
+  
+  p, .container-mirror {
+    margin-bottom: 0;
+  }
+  
+  .right-button {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+  }
+  
+  .btn-success.btn.btn-lg {
+    background-color:#1e7e34;
+    border: 3px solid #1e7e34;
+    border-radius: 10px;
+  }
+  .btn-success.btn.btn-lg:hover {
+    background-color: #4dc247;
+    border: 3px solid  #4dc247;
+  }
+  
+  .msg {
+    height: 40px;
+  }
+  
+ 
+  .wrapper {
+    border-radius: 50%;
+    border: 5px solid #D8E2DC;
+    color: #D8E2DC;
+    width: 65px;
+    height: 65px;
+    line-height: 70px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    margin: 0 auto;
+  }
+  
+  .fb-icon, .linkedIn-icon, .gmail-icon, .phone-icon{
+    padding: 10px 0;
+    margin-bottom: 20px;
+  }
+  
+  /*  icon color */
+  .fb-icon .wrapper {
+    color: #3b5998;
+    border: 5px solid #3b5998;
+  }
+  
+  .linkedIn-icon .wrapper {
+    color: #0390c5;
+    border: 5px solid #0390c5;
+  }
+  
+  .gmail-icon .wrapper {
+    color:#af2110;
+    border: 5px solid #af2110;
+  }
+  
+  .phone-icon .wrapper {
+    color: #4dc247;
+    border: 5px solid #4dc247;
+  }
+  
+  
+  /* hoover color */
+  .fb-icon:hover {
+    border: 3px solid #3b5998;
+    box-shadow: 0 0 15px #3b5998;
+    color: #3b5998;
+    transition: all 0.5s ease;
+  }
+  
+  
+  .linkedIn-icon:hover {
+    border: 3px solid #0390c5;
+    box-shadow: 0 0 15px #0390c5;
+    color: #0390c5;
+    transition: all 0.5s ease;
+  
+  }
+  
+  .gmail-icon:hover {
+    border: 3px solid #af2110;
+    box-shadow: 0 0 15px #af2110;
+    color: #af2110;
+    text-shadow: 0 0 15px #af2110;
+    transition: all 0.5s ease;
+  }
+  
+  .phone-icon:hover {
+    border: 3px solid #4dc247;
+    box-shadow: 0 0 15px #4dc247;
+    color: #4dc247;
+    text-shadow: 0 0 15px #4dc247;
+    transition: all 0.5s ease;
+  }
+  
+  
+  /* footer */
+  .footer-data {
+    text-align: left;
+    padding: 20px 15%;
+  }
+  
+  @media (max-width: 767px) {
+    .footer-details {
+      text-align: left;
+    }
+  }
