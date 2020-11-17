@@ -219,9 +219,6 @@ body {
   }
 
   /* portfolio section */
-  
-  
-
   .testimonial-image {
     margin-top: 20px;
     height: 150px;
@@ -230,7 +227,7 @@ body {
   }
 
   .press-logo {
-    width: 15%;
+    width: 25%;
     margin: 0 20px 0px;
   }
 
@@ -243,12 +240,24 @@ body {
     width: -webkit-fill-available;
   }
 
-  /* contacts section */
-  /*.contacts-header {
-    background-image: url("../images/contact.jpg");
-    background-repeat: round; /* makes height 100%  and no repeat */
-  /*}*/
+  .fluffy:hover {
+    background: #faebd7;
+    box-shadow: 0 0 35px #faebd7;
+    border-radius: 100%;
+    transition: all 0.5s ease;
+    
+  }
 
+  .aleios:hover {
+    background: black;
+    box-shadow: 0 0 35px #000000;
+    border-radius: 100%;
+    transition: all 0.5s ease;
+  }
+
+
+
+  /* contacts section */
   .sm1 {
     margin: 20px 15%;
   }
